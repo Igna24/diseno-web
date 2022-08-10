@@ -1,0 +1,220 @@
+* {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0%;
+  font-family: 'Inter', sans-serif;
+
+}
+
+body {
+  font-size: 1.25rem;
+}
+
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-nav ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-nav li {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.iniciales {
+  height: 4.6875rem;
+}
+
+.nav-options {
+  text-decoration: none;
+  border-radius: .25rem;
+  border-style: solid;
+  border-color: rgb(168, 168, 237);
+  padding: 0.1875rem;
+}
+
+.nav-options:hover {
+  background-color: rgb(168, 168, 237);
+  color: #ffff;
+}
+
+.container {
+  max-width: 71.25rem;
+  margin: 0 auto;
+  margin-bottom: 3.125rem;
+}
+
+.container h2 {
+  margin-bottom: 1.875rem;
+}
+
+.container h3 {
+  margin-bottom: 1.25rem;
+}
+
+.edu-image {
+  height: 12.5rem;
+}
+
+.projects {
+  border: 0.1875rem;
+  border-color: rgb(168, 168, 237);
+  border-style: solid;
+  border-radius: 0.625rem;
+  padding: 0.9375rem;
+  margin-bottom: 1.25rem;
+  background-color: rgb(238, 238, 238);
+}
+
+.projects_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.projects li {
+  list-style: none;
+}
+
+.projects h3 {
+  font-size: 1.5625rem;
+  color: rgb(154, 140, 140);
+}
+
+.projects img {
+  margin-top: 1.25rem;
+}
+
+.images {
+  height: 25rem;
+  margin-left: 3.125rem;
+}
+
+.images-projects {
+  height: 25rem;
+  width: 43.75rem;
+}
+
+.formulario {
+  background-color: #ffff;
+  width: 31.25rem;
+  margin: 1.25rem auto;
+  border-radius: 0.3125rem;
+}
+
+.formulario input {
+  display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 31.25rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid rgb(189, 170, 208);
+  font-size: 1rem;
+}
+.formulario select{
+  width: 33.75rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid rgb(189, 170, 208);
+  font-size: 1rem;
+
+}
+
+.formulario textarea {
+  min-height: 7.5rem;
+  max-height: 18.75rem;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.formulario input[type="text"] :focus,
+.formulario input[type="email"] :focus,
+.formulario select :focus,
+.formulario textarea :focus {
+  border: 0.125rem solid rgb(189, 170, 208);
+
+}
+
+.formulario input[type="submit"] {
+  width: 12.5rem;
+  margin: 0 auto;
+  background-color: rgb(137, 239, 239);
+  border: 1px rgb(137, 239, 239);
+  color: black;
+  padding: 0.625rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+select {
+  color: gray;
+}
+
+
+.formulario input[type="submit"]:hover {
+  background-color: rgb(189, 170, 208);
+  color: rgb(137, 239, 239);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffff;
+  background-color: rgb(189, 170, 208);
+  padding-bottom: 1.25rem;
+}
+
+.nav-footer {
+  list-style: none;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.company-about {
+  flex-basis: 31.25rem;
+}
+
+.redes-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-footer input {
+  margin-top: 0.625rem;
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
+  background-color: rgb(185, 229, 229);
+  border-color: rgb(137, 239, 239);
+}
+
+footer label {
+  color: rgb(154, 140, 140);
+}
+
+footer h2 {
+  color: rgb(154, 140, 140);
+}
